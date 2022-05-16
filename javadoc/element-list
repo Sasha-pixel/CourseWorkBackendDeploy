@@ -1,0 +1,11 @@
+com.example.insurance
+com.example.insurance.beans
+com.example.insurance.controllers
+com.example.insurance.data.entities
+com.example.insurance.data.repositories
+com.example.insurance.data.responsedto
+com.example.insurance.exceptions
+com.example.insurance.security
+com.example.insurance.security.filters
+com.example.insurance.security.jwt
+com.example.insurance.services

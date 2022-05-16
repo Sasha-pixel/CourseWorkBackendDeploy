@@ -50,7 +50,7 @@ public class UserService {
                 userRegistrationInputDTO.getEmail(),
                 userRegistrationInputDTO.getTelephoneNumber()
         );
-        if (!dbUserByEmail.isPresent()) {
+        if (dbUserByEmail.isEmpty()) {
             UserEntity user = new UserEntity()
                     .setEmail(userRegistrationInputDTO.getEmail())
                     .setFullName(userRegistrationInputDTO.getFullName())
